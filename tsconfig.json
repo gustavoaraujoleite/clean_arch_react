@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "rootDirs": ["src", "tests"],
+    "baseUrl": "src",
+    "paths": {
+      "@/*": ["*"]
+    },
+    "allowJs": true,
+    "resolveJsonModule": true
+  },
+  "include": ["src", "global.d.ts"]
+  // "exclude": ["tests/e2e/cypress"]
+}
+// {
+//   "compilerOptions": {
+//     "noImplicitAny": true,
+//     "module": "esnext",
+//     "target": "es5",
+//     "jsx": "react",
+//     "sourceMap": true,
+//     "allowJs": true,
+//     "moduleResolution": "node",
+//     "allowSyntheticDefaultImports": true,
+//     "esModuleInterop": true
+//   },
+//   "exclude": ["node_modules", "**/*.spec.ts", "**/*.test.ts"],
+//   "include": ["src", "global.d.ts"]
+// }
